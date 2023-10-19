@@ -1,0 +1,125 @@
+body {
+  background-image: url(images/alp-duran-3-dz_zeSiI4-unsplash.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    padding-left: 135px;
+    font-weight: bolder;
+    color: white;
+    font-weight: lighter;
+  
+}
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: white;
+  font-weight: lighter;
+  padding-left: 420px;
+  padding-bottom: 250px;
+  position: relative;
+bottom: 25px;
+ 
+}
+
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.slot {
+  width: 100px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 7.5px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  background: #fafafa;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+.slot .symbols {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: top 5s ease-in-out;
+}
+
+.slot .symbol {
+  width: 100px;
+  height: 150px;
+  font-size: 60px;
+  line-height: 100px;
+  display: block;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  height: 60px;
+  border-radius: 100%;
+}
+.btn-2 {
+  background: #D4AF37;
+  background: linear-gradient( #D4AF37, rgb(252, 250, 253) 100%);
+  border: none;
+  
+}
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-2:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#balanceDisplay {
+  color: #fff;
+  text-align: center;
+  font-size:2.5rem;
+
+}
+.spin {
+  padding: 10px 20px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;}
+#spinButton{ background: #D4AF37;
+  background: linear-gradient( #770000, rgb(252, 250, 253) 100%);
+  border: none;
+  
+}
+.spin:before {
+  height: 0%;
+  width: 2px;
+}
+.spin:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
+
+  
